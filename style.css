@@ -56,6 +56,23 @@
 
 /* End of Gallery Section */
 
+/* Work Experience */
+
+@media only screen and (max-width: 700px) {
+.responsive.work-experience {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+.responsive.work-experience {
+    padding: 0 5px; 
+    width: 50%;
+    float: left;
+}
+
+/* End of Work Experience */
+
 table {
     border-collapse: collapse; 
     width: 100%
