@@ -5,8 +5,41 @@
     box-sizing: border-box;
 }
 
+/* Horizontal Navigation Bar */
+
+.navbar ul {
+  list-style-type: none;
+  margin-left: 5%;
+  margin-right: 5%; 
+  padding: 0;
+  overflow: hidden; 
+  background-color: #9d5892;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0; 
+}
+
+.navbar li a {
+  display: block;
+  color: black; 
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  background-color: #9d5892;
+}
+
+.navbar li a:hover {
+  background-color: white;
+}
+
+/* End of Horizontal Navigation Bar */
+
 .homepage {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Gallery Section */ 
